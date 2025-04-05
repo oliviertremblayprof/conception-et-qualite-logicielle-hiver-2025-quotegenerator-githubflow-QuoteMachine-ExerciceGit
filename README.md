@@ -43,9 +43,9 @@ Chaque fonctionnalité doit être développée dans **une branche distincte**, p
 |-------------------------------|--------------------------------------------------------|
 | `feature/random-quote`        | Méthode pour retourner une citation au hasard         |
 | `feature/add-quote`           | Ajouter une citation manuellement depuis la console   |
-| `feature/menu`                | Créer un menu interactif dans `Program.cs`            |
-| `feature/save-to-file`        | Sauvegarder les citations dans un fichier texte       |
-| `feature/load-from-file`      | (Optionnel) Charger les citations à partir d’un fichier |
+| `feature/menu`                | Créer un menu interactif qui expose les fonctionnalités dans `Program.cs`            |
+| `feature/save-to-file`        | Sauvegarder les citations dans un fichier csv       |
+| `feature/load-from-file`      | (Optionnel) Charger les citations à partir d’un fichier csv |
 
 ---
 
