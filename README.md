@@ -9,7 +9,17 @@ Une petite application console collaborative en C# pour générer et gérer des 
 Développer une application C# console par itérations, en respectant le GitHub Flow :
 - Création d'une branche par fonctionnalité
 - Pull Request (PR) pour chaque ajout
+- Chaque PR inclue la fonctionnalité et des tests unitaires pour prouver que **votre code fonctionne sans faille**.
 - Revue de code par au moins une personne avant le merge
+
+---
+
+## 🎮 But du jeu
+
+- Travailler en équipe pour compléter un maximum de fonctionnalités.
+- Ajouter des tests unitaires pour prouver que **votre code fonctionne sans faille**.
+- Respecter les bonnes pratiques Git et faire approuver vos PRs.
+- Livrer un projet propre, bien structuré... et qui compile évidemment !
 
 ---
 
