@@ -26,4 +26,4 @@ jobs:
       run: dotnet build QuoteMachine-ExerciceGit.sln --no-restore --configuration Release
 
     - name: 🧪 Run tests
-      run: dotnet test QuoteMachineTests/QuoteMachineTests.csproj --no-build --verbosity normal
+      run: dotnet test QuoteMachineTests\QuoteMachineTests.csproj --no-build --verbosity normal
