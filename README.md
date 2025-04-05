@@ -17,7 +17,7 @@ Développer une application C# console par itérations, en respectant le GitHub 
 ## 🎮 But du jeu
 
 - Travailler en équipe pour compléter un maximum de fonctionnalités.
-- Ajouter des tests unitaires pour prouver que **votre code fonctionne sans faille**.
+- Écrire le code requis pour faire passer les tests reliés à votre fonctionnalité (aucun test doit être commenté à la fin).
 - Respecter les bonnes pratiques Git et faire approuver vos PRs.
 - Livrer un projet propre, bien structuré... et qui compile évidemment !
 
@@ -55,7 +55,7 @@ Chaque fonctionnalité doit être développée dans **une branche distincte**, p
 ```bash
    git checkout -b feature/nom-de-votre-fonctionnalité
 ```
-3. **Coder votre fonctionnalité localement**
+3. **Coder votre fonctionnalité localement** et vérifier que les tests unitaires reliés à votre fonctionnalité passent.
 
 4. **Pousser votre branche sur GitHub** :
 ```bash
