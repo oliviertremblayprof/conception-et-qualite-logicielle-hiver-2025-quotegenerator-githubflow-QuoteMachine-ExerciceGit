@@ -8,6 +8,7 @@ on:
 
 jobs:
   build-and-test:
+    name: Run .NET Tests ✅
     runs-on: windows-latest
 
     steps:
