@@ -2,8 +2,6 @@
 
 Une petite application console collaborative en C# pour générer et gérer des citations inspirantes — conçue pour pratiquer le **GitHub Flow** en équipe.
 
-[![Build and Test QuoteMachine](https://github.com/oliviertremblay/QuoteMachine-ExerciceGit/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/oliviertremblay/QuoteMachine-ExerciceGit/actions/workflows/dotnet-desktop.yml)
-
 ---
 
 ## 🎯 Objectif
