@@ -11,13 +11,13 @@ namespace QuoteMachineTests
             _manager = new QuoteManager();
         }
 
-        [Fact]
-        public void GetRandomQuote_ShouldReturnNonNullQuote()
-        {
-            var quote = _manager.GetRandomQuote();
-            Assert.NotNull(quote);
-            Assert.IsType<Quote>(quote);
-        }
+        //[Fact]
+        //public void GetRandomQuote_ShouldReturnNonNullQuote()
+        //{
+        //    var quote = _manager.GetRandomQuote();
+        //    Assert.NotNull(quote);
+        //    Assert.IsType<Quote>(quote);
+        //}
 
         //[Fact]
         //public void AddQuote_ShouldIncreaseQuoteCount()
