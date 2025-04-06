@@ -9,7 +9,17 @@ Une petite application console collaborative en C# pour générer et gérer des 
 Développer une application C# console par itérations, en respectant le GitHub Flow :
 - Création d'une branche par fonctionnalité
 - Pull Request (PR) pour chaque ajout
+- Votre PR ne peut pas être crée si les tests ne passent pas.
 - Revue de code par au moins une personne avant le merge
+
+---
+
+## 🎮 But du jeu
+
+- Travailler en équipe pour compléter un maximum de fonctionnalités.
+- Écrire le code requis pour faire passer les tests reliés à votre fonctionnalité (aucun test doit être commenté à la fin).
+- Respecter les bonnes pratiques Git et faire approuver vos PRs.
+- Livrer un projet propre, bien structuré... et qui compile évidemment !
 
 ---
 
@@ -33,9 +43,9 @@ Chaque fonctionnalité doit être développée dans **une branche distincte**, p
 |-------------------------------|--------------------------------------------------------|
 | `feature/random-quote`        | Méthode pour retourner une citation au hasard         |
 | `feature/add-quote`           | Ajouter une citation manuellement depuis la console   |
-| `feature/menu`                | Créer un menu interactif dans `Program.cs`            |
-| `feature/save-to-file`        | Sauvegarder les citations dans un fichier texte       |
-| `feature/load-from-file`      | (Optionnel) Charger les citations à partir d’un fichier |
+| `feature/menu`                | Créer un menu interactif qui expose les fonctionnalités dans `Program.cs`            |
+| `feature/save-to-file`        | Sauvegarder les citations dans un fichier csv       |
+| `feature/load-from-file`      | (Optionnel) Charger les citations à partir d’un fichier csv |
 
 ---
 
@@ -45,7 +55,7 @@ Chaque fonctionnalité doit être développée dans **une branche distincte**, p
 ```bash
    git checkout -b feature/nom-de-votre-fonctionnalité
 ```
-3. **Coder votre fonctionnalité localement**
+3. **Coder votre fonctionnalité localement** et vérifier que les tests unitaires reliés à votre fonctionnalité passent.
 
 4. **Pousser votre branche sur GitHub** :
 ```bash
