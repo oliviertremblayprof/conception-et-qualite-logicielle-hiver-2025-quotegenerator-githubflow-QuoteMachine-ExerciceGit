@@ -22,11 +22,12 @@ namespace QuoteMachine_ExerciceGit
 
         public Quote GetRandomQuote()
         {
-            //Avant de commencer, décommenter le test suivant:
-            //GetRandomQuote_ShouldReturnNonNullQuote
+            Random rand = new Random();
+            int randomIndex = rand.Next(0, _quotes.Count);
+            Quote randomQuoteSelected = _quotes[randomIndex];
+            return randomQuoteSelected; 
 
             //Avant de créer votre PR, faites un git rebase sur main pour vous assurer que vous avez la dernière version du code.
-            throw new NotImplementedException("À implémenter dans feature/random-quote");
         }
 
         public void AddQuote(string text, string author)
